@@ -2,6 +2,7 @@ import * as React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { Platform } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
 import Home from '../screen/Home';
 import Chat from '../screen/Chat';
@@ -82,7 +83,8 @@ const Tabs = () => {
           
                
               }}
-              name='add-circle-outline' size={30} color={focused ? '#149777' : '#673500'}  />
+              name='add-circle' size={30} color={focused ? '#149777' : '#673500'}  />
+              
           ),
         }}
       />
