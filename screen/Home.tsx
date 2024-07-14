@@ -21,8 +21,7 @@ const DATA = [
 const Home = () => {
   return (
     <View style={styles.container}>
-      <StatusBar backgroundColor="#050C9C" barStyle="light-content" />
-
+     
       <View style={styles.header}>
         <Image style={styles.logo} source={require('../assets/images/ikman-logo.png')} />
       </View>

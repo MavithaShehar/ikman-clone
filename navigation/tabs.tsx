@@ -13,7 +13,7 @@ import Search from '../screen/Search';
 
 const Tab = createBottomTabNavigator();
 
-const screenOptions = {
+const screenoptions = {
   tabBarActiveTintColor: "#149777",
   tabBarInactiveTintColor: "#383838",
   tabBarLabelStyle: {
@@ -36,7 +36,7 @@ const screenOptions = {
 
 const Tabs = () => {
   return (
-    <Tab.Navigator screenOptions={screenOptions}>
+    <Tab.Navigator screenOptions={screenoptions}>
       <Tab.Screen
         name="Home"
         component={Home}
