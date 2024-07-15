@@ -62,7 +62,7 @@ const Home = () => {
             
             <View style={styles.cards}>
               <View style={styles.cardsImage}>
-                <Image style={styles.img} source={require('../assets/images/shoe.jpg')} />
+                <Image style={styles.img} source={require('../assets/images/car.jpg')} />
               </View>
               <View style={styles.itemData}>
                 <Text style={styles.itemName}>{item.title}</Text>
@@ -93,6 +93,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 10,
   },
+  
   selectBar: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -128,12 +129,14 @@ const styles = StyleSheet.create({
   },
   cardsContainer: {
     flex: 1,
-    padding: 10,
+    padding: 1,
+    
+    backgroundColor:"#e0e0e0"
   },
   cards: {
     backgroundColor: "#fff",
-    width: '47%',
-    margin: 5,
+    width: '48%',
+    margin: 4,
     borderRadius: 2,
     overflow: "hidden",
     paddingBottom: 20,
