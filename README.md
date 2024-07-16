@@ -21,4 +21,4 @@
 
 ##### 06.ikman.lk profile page 
 
-<img src="assets/images/chatScreen.jpeg" alt="ikman.lk home page" width="340" height="600" />
+<img src="assets/images/profileScren.jpeg" alt="ikman.lk home page" width="340" height="600" />
