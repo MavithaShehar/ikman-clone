@@ -4,6 +4,7 @@ import UserInfo from '../componets/userInfomation/getUserInfo';
 import AddInfo from '../componets/adsInfomation/adsInfo';
 import { AntDesign } from '@expo/vector-icons';
 
+
 const { height: screenHeight } = Dimensions.get('window');
 
 const PostAd = () => {
@@ -18,6 +19,7 @@ const PostAd = () => {
       </View>
 
       <UserInfo />
+      
 
       <View style={styles.divider}></View>
 

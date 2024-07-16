@@ -41,7 +41,6 @@ const Profile = () => {
 
 const styles = StyleSheet.create({
   container: {
-    
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -51,7 +50,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     flexDirection: 'row',
     alignItems: 'center',
-    paddingLeft:10
+    paddingLeft:5
   },
   image: {
     width: 40,
