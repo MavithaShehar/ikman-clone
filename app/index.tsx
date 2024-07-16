@@ -14,8 +14,7 @@ const Tab = createBottomTabNavigator();
    <StatusBar backgroundColor="#050C9C" barStyle="light-content" />
    
    <NavigationContainer independent={true}>
-  
-        < Tabs/>
+    < Tabs/>
     </NavigationContainer> 
 
      </>
